@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f3ec">
+  <meta name="description" content="WedLink 智慧婚禮整合平台：以飯店桌數、新秘、美甲、美髮、婚攝婚錄、婚紗與照片加購方案，即時計算婚禮預算。">
+  <title>WedLink 智慧婚禮整合平台</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="estimate.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">跳至主要內容</a>
+<header class="site-header">
+  <a href="#" class="brand" aria-label="WedLink 智慧婚禮整合平台首頁">
+    <span class="brand-symbol" aria-hidden="true">w<span>♡</span></span>
+    <span><strong>WedLink</strong><small>智慧婚禮整合平台</small></span>
+  </a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">選單 <span aria-hidden="true">☰</span></button>
+  <nav id="navigation" aria-label="主要導覽">
+    <a href="#story">品牌理念</a><a href="#budget">預算試算</a><a href="#experience">籌備清單</a><a href="#loop">永續婚禮</a>
+  </nav>
+  <a class="header-action" href="#budget">免費試算 <span aria-hidden="true">↗</span></a>
+</header>
+<main id="main">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow"><span></span> LOVE, SIMPLY CONNECTED</p>
+      <p class="english-subtitle">A little less rush.<br> A little more <em>love.</em></p>
+      <h1 id="hero-title">讓婚禮，<br>從忙亂走向<br><em>期待。</em></h1>
+      <p class="hero-description">把繁瑣留給規劃，把時間留給彼此。<br>以智慧管理，串起屬於你們的幸福日常。</p>
+      <div class="hero-actions"><a class="button" href="#budget">開始免費試算 <span aria-hidden="true">↓</span></a><a class="text-link" href="#story">認識 WedLink <span aria-hidden="true">↗</span></a></div>
+      <p class="hero-note">選擇喜歡的方案 <span>／</span> 婚宴・造型・影像，一次算清楚</p>
+    </div>
+    <figure class="hero-art">
+      <div class="arch-frame"><img src="wedding-hero.png" alt="暖陽下，身穿婚紗與西裝的新人走向花藝拱門的婚禮情境；AI 生成示意圖" width="1024" height="1280" fetchpriority="high"></div>
+      <div class="round-stamp" aria-hidden="true"><span>THE ART OF</span><b>♡</b><span>GETTING MARRIED</span></div>
+      <figcaption><span>01 / 幸福，從從容準備開始</span><span>AI 情境圖</span></figcaption>
+    </figure>
+  </section>
+  <div class="chapter-nav wrap" aria-label="網站導覽"><a href="#budget"><span>01</span> 算出婚禮預算 <b>↗</b></a><a href="#experience"><span>02</span> 安排籌備進度 <b>↗</b></a><a href="#loop"><span>03</span> 讓美好再循環 <b>↗</b></a></div>
+
+  <section id="story" class="section wrap story" aria-labelledby="story-title">
+    <div><p class="eyebrow">PROLOGUE / 品牌初衷</p><h2 id="story-title">結婚很幸福，<br>準備也可以<em>從容。</em></h2></div>
+    <div class="story-body"><p class="lead">一場婚禮，有多少個對話視窗？</p><p>婚宴、婚紗、攝影、新秘，每件事都值得好好安排。當報價散落在訊息裡、期限記在不同地方，籌備很容易變成另一份工作。</p><p>用 WedLink 先選方案、算預算，再一步步安排籌備進度。從婚宴桌數到照片加購，把不同選擇放進同一份清楚的規劃。</p><p class="small muted">免費使用試算與籌備清單。方案為參考資料，實際預訂與報價請洽各服務提供者。</p></div>
+    <div class="pain-row"><article><span>Ⅰ</span><h3>資訊，整理在一起</h3><p>婚宴、造型、攝影與婚紗，依需求選擇參考方案。</p></article><article><span>Ⅱ</span><h3>預算，每一筆清楚</h3><p>桌數、服務費與加購即時加總，掌握預算餘額。</p></article><article><span>Ⅲ</span><h3>籌備，跟著自己的步調</h3><p>按階段勾選待辦，讓每一件重要的小事都有位置。</p></article></div>
+  </section>
+
+
+
+  <section id="budget" class="section wrap calculator-section" aria-labelledby="budget-title">
+    <div class="section-heading"><div><p class="eyebrow">01 / YOUR WEDDING ESTIMATE</p><h2 id="budget-title">選好喜歡的，<br>預算就<em>清楚了。</em></h2></div><p>下拉選擇方案，立即計算費用。<br>依提供資料設定固定參考價，實際金額以商家報價為準。</p></div>
+    <div class="estimate-toolbar"><p>從你們想要的婚禮開始，<br class="mobile-break">未選擇的項目不計費。</p><button class="text-link" id="load-example">帶入示範搭配 <span aria-hidden="true">↗</span></button></div>
+    <div class="estimate-layout">
+      <form id="estimate-form" class="estimate-form" novalidate>
+        <fieldset class="estimate-group"><legend><span>01</span> 婚宴場地 <small>THE RECEPTION</small></legend>
+          <div class="estimate-field"><label for="hotel">婚宴飯店</label><select id="hotel" name="hotel" data-price-list="hotels"></select><p class="selection-description" id="hotel-note"></p></div>
+          <div class="field-pair"><div class="estimate-field"><label for="tables">預估桌數 <small>每桌 10 位</small></label><input id="tables" name="tables" type="number" min="1" max="1000" step="1" value="10" inputmode="numeric"><p class="selection-description" id="guest-count">約 100 位賓客</p></div><div class="venue-receipt"><div><span>每桌參考價</span><b id="table-price">NT$ 0</b></div><div><span>婚宴 10% 服務費</span><b id="service-charge">NT$ 0</b></div></div></div>
+          <div class="group-total"><span>婚宴小計 <small>含 10% 服務費</small></span><output id="venue-subtotal">NT$ 0</output></div>
+        </fieldset>
+        <fieldset class="estimate-group"><legend><span>02</span> 妝髮與美業 <small>YOUR BRIDAL LOOK</small></legend>
+          <div class="estimate-field"><label for="makeup">化妝師／新娘秘書</label><select id="makeup" name="makeup" data-price-list="makeup"></select><p class="selection-description" id="makeup-note"></p></div>
+          <div class="estimate-field"><label for="nails">美甲風格</label><select id="nails" name="nails" data-price-list="nails"></select><p class="selection-description" id="nails-note"></p></div>
+          <div class="estimate-field"><label for="hair">美髮燙染方案</label><select id="hair" name="hair" data-price-list="hair"></select><p class="selection-description" id="hair-note"></p></div>
+          <div class="group-total"><span>妝髮美業小計</span><output id="beauty-subtotal">NT$ 0</output></div>
+        </fieldset>
+        <fieldset class="estimate-group"><legend><span>03</span> 婚禮影像 <small>THE MEMORIES</small></legend>
+          <div class="estimate-field"><label for="photography">靜態平面攝影</label><select id="photography" name="photography" data-price-list="photography"></select><p class="selection-description" id="photography-note"></p></div>
+          <div class="estimate-field"><label for="video">動態錄影紀錄</label><select id="video" name="video" data-price-list="video"></select><p class="selection-description" id="video-note"></p></div>
+          <div class="estimate-field"><label for="sde">快剪快播 SDE</label><select id="sde" name="sde"><option value="none">不加購</option><option value="yes">加購現場快剪快播｜NT$ 15,000</option></select><p class="selection-description" id="sde-note">需先選擇動態錄影方案。</p></div>
+          <div class="group-total"><span>婚禮影像小計</span><output id="record-subtotal">NT$ 0</output></div>
+        </fieldset>
+        <fieldset class="estimate-group"><legend><span>04</span> 婚紗與照片 <small>YOUR WEDDING PORTRAITS</small></legend>
+          <div class="estimate-field"><label for="wedding">婚紗攝影風格包套</label><select id="wedding" name="wedding" data-price-list="wedding"></select><p class="selection-description" id="wedding-note"></p></div>
+          <div class="estimate-field"><label for="photos">毛片與精修方案</label><select id="photos" name="photos" data-price-list="photos"></select><p class="selection-description" id="photos-note"></p></div>
+          <div class="estimate-field"><label for="extra-photos" id="extra-photo-label">額外加購精修張數 <small>每張 NT$ 500</small></label><input id="extra-photos" name="extraPhotos" type="number" min="0" max="10000" step="1" value="0" inputmode="numeric"><p class="selection-description" id="extra-photos-note">僅計算包套外另行加購的精修張數。</p></div>
+          <p class="package-note">部分婚紗包套已含精修照片。若已涵蓋需求，毛片與精修方案可選「不另購」，避免重複編列。</p>
+          <div class="group-total"><span>婚紗照片小計</span><output id="portrait-subtotal">NT$ 0</output></div>
+        </fieldset>
+      </form>
+      <aside class="estimate-summary" aria-label="婚禮預算試算結果"><p class="eyebrow">OUR WEDDING PLAN</p><h3>幸福的預算全貌</h3><p class="summary-caption">預估總金額・新臺幣</p><output id="estimate-total" class="estimate-grand" aria-live="polite" aria-atomic="true">NT$ 0</output><p id="selection-count" class="small muted">先選擇方案，開始規劃。</p>
+        <div class="estimate-distribution" id="estimate-distribution" aria-hidden="true"></div>
+        <dl class="estimate-breakdown"><div><dt><i class="dot-venue"></i>婚宴場地</dt><dd id="summary-venue">NT$ 0</dd></div><div><dt><i class="dot-beauty"></i>妝髮美業</dt><dd id="summary-beauty">NT$ 0</dd></div><div><dt><i class="dot-record"></i>婚禮影像</dt><dd id="summary-record">NT$ 0</dd></div><div><dt><i class="dot-portrait"></i>婚紗照片</dt><dd id="summary-portrait">NT$ 0</dd></div></dl>
+        <div class="target-field"><label for="target-budget">我們的預算上限 <small>NT$</small></label><input id="target-budget" type="number" min="0" max="1000000000" step="10000" value="550000" inputmode="numeric"><div class="balance-row"><span id="balance-label">尚可安排</span><strong id="balance-value">NT$ 550,000</strong></div><p id="budget-message" role="status">選好方案後，這裡會顯示預算餘額。</p></div>
+        <button class="button" id="download-estimate">下載我的預算表 <span aria-hidden="true">↓</span></button><button class="text-link" id="reset-estimate">重新選擇 <span aria-hidden="true">↺</span></button><p class="summary-note">婚宴含 10% 服務費；其他項目依資料固定價計算。未包含婚戒、喜餅、交通與其他未列項目。</p>
+      </aside>
+    </div>
+    <p class="estimate-disclaimer">價格來源：提供的 WedLink 試算基礎價格資料庫。所有價格為預算規劃參考，非即時報價、可預訂承諾或合作關係證明；檔期、稅費、交通及加價條件請另向商家確認。</p>
+  </section>
+  <section id="experience" class="section tinted" aria-labelledby="experience-title"><div class="wrap">
+    <div class="section-heading"><div><p class="eyebrow">02 / YOUR WEDDING JOURNEY</p><h2 id="experience-title">從今天開始，<br>把幸福<em>慢慢安排好。</em></h2></div><p>每個階段，做好眼前的小事。<br>點選時間，勾選你們已完成的準備。</p></div>
+    <div class="journey-head"><p class="eyebrow">THE WEDDING JOURNEY / 幸福時間軸</p><p class="small muted">點選階段，展開準備重點</p></div>
+    <div class="tabs journey-tabs" role="tablist" aria-label="婚禮籌備階段"><button role="tab" id="stage-180" aria-selected="true" aria-controls="journey-panel" data-stage="180"><b>180</b><span>天前・確定方向</span></button><button role="tab" id="stage-90" aria-selected="false" aria-controls="journey-panel" tabindex="-1" data-stage="90"><b>90</b><span>天前・安排合作</span></button><button role="tab" id="stage-30" aria-selected="false" aria-controls="journey-panel" tabindex="-1" data-stage="30"><b>30</b><span>天前・準備細節</span></button><button role="tab" id="stage-day" aria-selected="false" aria-controls="journey-panel" tabindex="-1" data-stage="day"><b>♡</b><span>婚禮當天・安心相聚</span></button><button role="tab" id="stage-after" aria-selected="false" aria-controls="journey-panel" tabindex="-1" data-stage="after"><b>∞</b><span>婚禮之後・延續美好</span></button></div>
+    <div id="journey-panel" role="tabpanel" aria-labelledby="stage-180" tabindex="0" class="journey-panel"></div>
+    <p class="small muted">時程與任務為企劃示例，可依婚禮形式調整；清單勾選只儲存在此瀏覽器。</p>
+  </div></section>
+
+  <section id="loop" class="section wrap loop-section" aria-labelledby="loop-title">
+    <div class="loop-visual" aria-hidden="true"><span class="loop-orbit orbit-one"></span><span class="loop-orbit orbit-two"></span><div class="loop-center"><small>PASS ON THE LOVE</small><b>Wedding<br><em>Loop</em></b><span>讓美好，再發生。</span></div><span class="orbit-label label-a">租賃</span><span class="orbit-label label-b">使用</span><span class="orbit-label label-c">回收</span><span class="orbit-label label-d">整新</span></div>
+    <div><p class="eyebrow">03 / A LOVE THAT LASTS</p><h2 id="loop-title">一場婚禮的美好，<br>可以有<em>下一站。</em></h2><p>背板、燈飾與花藝道具，值得被再一次珍惜。Wedding Loop 規劃將租賃、回收、清潔與整新串起來，讓相同道具陪伴不同新人的重要時刻。</p><div class="loop-benefits"><p><span>給新人</span>多一個符合預算的佈置選擇。</p><p><span>給廠商</span>提升道具使用機會，延續資產價值。</p><p><span>給環境</span>讓可重用的道具減少一次性消耗。</p></div><p class="small muted">循環服務屬未來規劃；節省費用與環境效益仍需實際營運資料驗證。</p></div>
+  </section>
+
+  <section class="wrap sources-section" id="sources"><details class="editorial-details"><summary>資料來源與展示說明 <span aria-hidden="true">＋</span></summary><div class="details-content source-copy"><p>本網站依使用者提供的 WedLink 文件與課堂商業模式畫布照片整理。網站為學生企劃與互動原型，未提供真實預訂、付款、帳號註冊或對外詢價。</p><p>資料提供 :廖小瑩、呂柏稷、李詩韻、黃婕、汪紋婕</p></div></details></section>
+</main>
+<footer class="site-footer wrap"><a class="footer-brand" href="#">WedLink<span>少一點忙亂，多一點期待。</span></a><p>© 2026 WedLink 智慧婚禮整合平台<br><span>讓婚禮籌備少一點壓力，多一點幸福。</span></p><a class="text-link" href="#sources">資料與說明 <span aria-hidden="true">↗</span></a></footer>
+<noscript><p class="wrap">請開啟 JavaScript 以使用方案下拉選單、預算試算與籌備清單。</p></noscript>
+</body>
+</html>
